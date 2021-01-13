@@ -6,7 +6,7 @@ fixture `New Fixture`
 test('New Test', async t => {
     await t
         .click(Selector('header a').withText('LOGIN').nth(1))
-        .typeText('#userName', 'raj')
+        .typeText('#userName', 'rajkumar2')
         .typeText('#userPassword', '123@Mummy')
         .click(Selector('button').withText('SIGN IN'))
         .click(Selector('header a').withText('News & Events'))
